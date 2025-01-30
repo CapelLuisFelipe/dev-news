@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📌 Dev News
 
-## Getting Started
+Um blog interativo para desenvolvedores, criado com **Next.js e TypeScript**, exibindo artigos e notícias sobre tecnologia e programação. 🚀
 
-First, run the development server:
+## 📷 Demonstração
+<img width="1470" alt="Captura de Tela 2025-01-30 às 00 15 17" src="https://github.com/user-attachments/assets/66b6392c-5f4c-41d7-8c37-4d69fc224571" />
 
-```bash
-npm run dev
-# or
-yarn dev
+
+## ✨ Funcionalidades
+
+- 📰 **Exibição de notícias e artigos para desenvolvedores**
+- 🔄 **Rotas dinâmicas** para acessar detalhes de cada postagem
+- 🔍 **SEO otimizado** para melhor indexação
+- ⚡ **SSR (Server-Side Rendering) e SSG (Static Site Generation)** com Next.js
+- 🔌 **API interna** para gerenciamento de dados
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js** - Framework React para renderização otimizada
+- **TypeScript** - Tipagem estática para maior segurança no código
+- **Styled Components** - Estilização dinâmica e componentizada
+- **Prisma ORM** - Manipulação de banco de dados
+- **API REST** - Comunicação entre front-end e back-end
+
+## 🛠 Como Rodar Localmente
+
+1️⃣ **Clone este repositório**
+```sh
+git clone https://github.com/SeuUsuario/DevNews.git
+cd DevNews
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2️⃣ **Instale as dependências**
+```sh
+npm install
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3️⃣ **Inicie o servidor de desenvolvimento**
+```sh
+npm run dev
+```
+O projeto estará disponível em **http://localhost:3000**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🌍 Deploy
+Este projeto pode ser facilmente implantado na **Vercel**:
+```sh
+vercel --prod
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🔗 Link do Projeto
+🔗 [Acessar Dev News](https://devnews.vercel.app)
 
-## Learn More
+## 📜 Licença
+Este projeto está sob a licença **MIT**. Sinta-se livre para usá-lo e modificá-lo! 😃
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+💡 Desenvolvido por **Luis Felipe Capel** | [GitHub](https://github.com/CapelLuisFelipe) | [LinkedIn](https://linkedin.com/in/luis-felipe-capel-832251249/) | [Instagram](https://instagram.com/luis.felipe.capel/) 🚀
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
